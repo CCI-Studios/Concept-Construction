@@ -1,4 +1,9 @@
 /* layout */
+.container {
+	margin: 0 auto;
+	width: 940px;
+	padding: 0 10px;
+}
 #body {background: url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
 
