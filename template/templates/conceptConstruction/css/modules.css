@@ -2,20 +2,29 @@
 .moduletable {}
 
 /* @group hmenu */
-.moduletable_hmenu {}
+.moduletable_hmenu.primary {
+	background: url('../images/menuShadow.png') bottom center no-repeat;
+	position: relative;
+	top: 70px;
+	font-family: bank gothic; /*TODO ADD @font-face*/
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 13px;
+}
 
-.moduletable_hmenu > ul {
+.moduletable_hmenu.primary > ul {
+	background: url('../images/menuBar_repeat.png') top center repeat-x;
 	margin: 0;
 	padding: 0;
 }
 
-.moduletable_hmenu > ul > li {
+.moduletable_hmenu.primary > ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
-	position: relative;
-	
-	padding: 0 5px;
+	padding: 0 12px;
+	margin: 30px 0;
 }
 
 .moduletable_vmenu > ul > li > a,
