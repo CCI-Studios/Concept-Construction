@@ -53,14 +53,15 @@
 
 /* /vmenu */
 
+/*bodyTop*/
 
-.moduletable_vmenu ul ul {
-	margin: 0.5em 0 1em 1em;
-	list-style: none;
+#bodyTop .module {
+	float: left;
+	width: 300px;
+	padding: 30px 0 0 20px;
 }
+#bodyTop .module:first-child {padding-left: 0;}
 
-.moduletable_vmenu li {
-	
 #bodyTop .module.blueBg {
 	width: 310px; 
 	color: #ffffff;
