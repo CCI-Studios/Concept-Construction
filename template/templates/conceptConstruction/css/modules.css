@@ -62,9 +62,16 @@
 
 .moduletable_vmenu li {
 	
+#bodyTop .module.blueBg {
+	width: 310px; 
+	color: #ffffff;
+	font-weight: lighter;
+	padding-top: 0;
 }
-/* /vmenu */
-
+#bodyTop .module.blueBg > div {background: url('../images/bodyTopModuleTop.jpg') top center no-repeat; padding-top: 10px;}
+#bodyTop .module.blueBg > div > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px;}
+#bodyTop .module.blueBg > div > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 20px 20px 30px;}
+#bodyTop .module.blueBg h3 {color: #ffffff;}
 /*sidebar*/
 
 #sidebar .moduletable {margin-bottom: 30px;}
