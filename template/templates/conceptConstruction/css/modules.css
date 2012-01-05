@@ -35,25 +35,24 @@
 .moduletable_vmenu > ul > li > a span,
 .moduletable_vmenu > ul > li > span span {
 	
+.moduletable_hmenu.secondary {
+	float: right;
+	margin-top: 20px;
+	font-size: 11px;
+	line-height: 11px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.35);
 }
 
-.moduletable_vmenu ul ul {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
+.moduletable_hmenu.secondary > ul > li:first-child {border-left: none;}
+.moduletable_hmenu.secondary > ul > li {
+	padding: 0 18px;
+	border-left: 1px solid #404143;
 }
-/* /hmenu */
+.moduletable_hmenu.secondary a {color: #404143;}
+.moduletable_hmenu.secondary a:hover {color: #ffffff; text-decoration: none; text-shadow: none;}
 
+/* /vmenu */
 
-/* @group vmenu */
-.moduletable_vmenu {}
-
-.moduletable_vmenu > ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
 
 .moduletable_vmenu ul ul {
 	margin: 0.5em 0 1em 1em;
