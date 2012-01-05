@@ -74,12 +74,13 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div class="clear"></div>
 	</div></div></div>
 	
-	<div id="footer">
+	<div id="footer"><div><div class="container">
 		<div id="copyright">
-			
+			&copy; Concept Construction LTD. <?php echo date('Y') ?>. All Rights Reserved.<br />
+			<a href="http://ccistudios.com">Site by CCI Studios</a>
 		</div>
 		<jdoc:include type="modules" name="footer" style="xhtml" />
-	</div>
+	</div></div></div>
 	
 	
 	<div class="hidden">
