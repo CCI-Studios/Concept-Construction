@@ -4,6 +4,7 @@
 	width: 940px;
 	padding: 0 10px;
 }
+#body .container {background: url('../images/bodyTopShadow.png') top center no-repeat;}
 
 #header {
 	background: url('../images/headerBG.jpg') top center no-repeat;
