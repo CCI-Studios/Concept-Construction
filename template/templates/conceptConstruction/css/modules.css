@@ -2,6 +2,17 @@
 .moduletable {}
 
 /* @group hmenu */
+.moduletable_hmenu > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.moduletable_hmenu > ul > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
 .moduletable_hmenu.primary {
 	background: url('../images/menuShadow.png') bottom center no-repeat;
 	position: relative;
@@ -13,28 +24,13 @@
 	padding-bottom: 13px;
 }
 
-.moduletable_hmenu.primary > ul {
-	background: url('../images/menuBar_repeat.png') top center repeat-x;
-	margin: 0;
-	padding: 0;
-}
+.moduletable_hmenu.primary > ul {background: url('../images/menuBar_repeat.png') top center repeat-x;}
 
 .moduletable_hmenu.primary > ul > li {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
 	padding: 0 12px;
 	margin: 30px 0;
 }
 
-.moduletable_vmenu > ul > li > a,
-.moduletable_vmenu > ul > li > span {
-	display: block;
-}
-
-.moduletable_vmenu > ul > li > a span,
-.moduletable_vmenu > ul > li > span span {
-	
 .moduletable_hmenu.secondary {
 	float: right;
 	margin-top: 20px;
