@@ -26,4 +26,11 @@
 	float: left;
 	width: 270px;
 	padding: 0 10px 0 30px;
+}#copyright {
+	background: url('../images/footerLogoImprint.png') left top no-repeat;
+	font-size: 10px;
+	color: #404143;
+	padding: 7px 0 20px 60px;
+	line-height: 16px;
 }
+#copyright a {color: #404143;}
