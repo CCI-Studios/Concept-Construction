@@ -39,15 +39,18 @@
 
 #footer {
 	background: url('../images/footerBG.jpg') top center repeat;
+	padding: 0 0 20px 0;
 }
 
-#footer > div {background: url('../images/footerTopBorder.png') top center repeat-x; padding-top: 15px;}
+#footer > div {background: url('../images/footerTopBorder.png') top center repeat-x; padding-top: 6px;}
 
 #copyright {
 	background: url('../images/footerLogoImprint.png') left top no-repeat;
+	float: left;
 	font-size: 10px;
 	color: #404143;
-	padding: 7px 0 20px 60px;
+	padding: 7px 0 7px 60px;
 	line-height: 16px;
+	margin-top: 10px;
 }
 #copyright a {color: #404143;}
