@@ -17,6 +17,8 @@
 #body {background: url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
 
+#bodyTop {margin-right: -10px;}
+
 #content {
 	float: left;
 	width: 620px;
