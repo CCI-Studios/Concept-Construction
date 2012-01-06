@@ -75,7 +75,8 @@
 	width: 300px; 
 	color: #ffffff;
 	font-weight: lighter;
-	padding: 0 0 15px 0;
+	padding-top: 0;
+	padding-bottom: 15px;
 }
 #bodyTop .module:hover > div {background: url('../images/bodyTopModuleTop.jpg') top center no-repeat; padding-top: 10px;}
 #bodyTop .module:hover > div > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px;}
