@@ -83,6 +83,15 @@
 #bodyTop .module:hover > div > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 20px 20px 30px;}
 #bodyTop .module:hover h3 {background: url('../images/bodyTopLogoImprint.png') left top no-repeat; color: #ffffff;}
 #bodyTop .module:hover p {font-style: italic;}
+#bodyTop .module:hover p:first-child:before {
+	position: absolute;
+	display: block;
+	content: "";
+	height: 100%;
+	width: 260px;
+	top: 70px;
+	background: url('../images/dividerLine.jpg') top center no-repeat;
+}
 
 /*sidebar*/
 
