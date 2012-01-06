@@ -96,4 +96,8 @@
 
 /*sidebar*/
 
-#sidebar .moduletable {margin-bottom: 30px;}
+#sidebar .moduletable {
+	position: relative; 
+	margin-bottom: 60px;
+	
+}
