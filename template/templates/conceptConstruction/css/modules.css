@@ -2,18 +2,21 @@
 .moduletable {}
 
 /* @group hmenu */
+
+.module_hmenu ul,
 .moduletable_hmenu > ul {
 	margin: 0;
 	padding: 0;
 }
 
+.module_hmenu ul li,
 .moduletable_hmenu > ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 }
 
-.moduletable_hmenu.primary {
+.module_hmenu.primary {
 	background: url('../images/menuShadow.png') bottom center no-repeat;
 	position: relative;
 	top: 70px;
@@ -24,10 +27,15 @@
 	padding-bottom: 13px;
 }
 
-.moduletable_hmenu.primary > ul {background: url('../images/menuBar_repeat.png') top center repeat-x;}
+.module_hmenu.primary > div {background: url('../images/menuBar_repeat.png') top center repeat-x;}
 
-.moduletable_hmenu.primary > ul > li {
-	padding: 0 12px;
+.module_hmenu.primary ul {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.module_hmenu.primary li {
+	padding: 0 10px;
 	margin: 30px 0;
 }
 
