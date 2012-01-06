@@ -1,0 +1,26 @@
+ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
+	background: none;
+	padding: 0;
+}
+
+ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
+	border: 1px solid #D9D9D9;
+	background: #ffffff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+ul.sigProClassic li.sigProThumb {
+	background: url('../images/galleryImageShadow.png') bottom center no-repeat !important;
+	padding: 5px 0px 9px 5px;
+	margin: 0 13px 0 0;
+}
+
+ul.sigProClassic li.sigProThumb a.sigProLink img.sigProImg {
+	-webkit-box-shadow: inset 0px 0px 4px #000000; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0px 0px 4px #000000; /* FF3.5 - 3.6 */
+	box-shadow: inset 0px 0px 4px #000000; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+	-pie-box-shadow: inset 0px 0px 4px #000000;
+	behaviour: url('../resources/PIE.htc');
+}
