@@ -11,6 +11,41 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+.module a.customLink{
+	font-size: 14px;
+	background: url('../images/buttonLink.png') top left no-repeat; 
+	padding-left: 20px;
+	margin-top: 15px;
+	position: absolute;
+	left: 110px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.module .customLink span {
+	background: url('../images/buttonLink.png') bottom right no-repeat; 
+	padding-right: 20px; 
+	line-height: 35px; 
+	display: inline-block;
+}
+
+.module:hover a.customLink{
+	font-size: 14px;
+	font-style: normal;
+	background: url('../images/buttonLink.png') top left no-repeat; 
+	padding-left: 20px;
+	position: absolute;
+	bottom: 10px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.module:hover .customLink span {
+	background: url('../images/buttonLink.png') bottom right no-repeat;
+	padding-right: 20px; 
+	line-height: 35px; 
+	display: inline-block;
+}
+
 a.customLink.first {left: 100px;}
 a.customLink.second {left: 120px;}
 a.customLink.third {left: 110px;}
