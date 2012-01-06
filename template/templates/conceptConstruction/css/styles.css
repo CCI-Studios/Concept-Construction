@@ -31,8 +31,7 @@
 	display: inline-block;
 }
 
-.module:hover a.customLink,
-.moduletable:hover a.customLink {
+.module:hover a.customLink {
 	font-size: 14px;
 	font-style: normal;
 	background: url('../images/buttonLink.png') top left no-repeat; 
@@ -42,8 +41,7 @@
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 }
 
-.module:hover .customLink span,
-.moduletable:hover .customLink span {
+.module:hover .customLink span {
 	background: url('../images/buttonLink.png') bottom right no-repeat;
 	padding-right: 20px; 
 	line-height: 35px; 
@@ -53,6 +51,7 @@
 a.customLink.first {left: 100px;}
 a.customLink.second {left: 120px;}
 a.customLink.third {left: 110px;}
+#sidebar a.customLink {left: 70px;}
 
 .menu li.item-106 {position: relative; width: 317px;}
 .menu li img + span {text-indent: -9000px;}
