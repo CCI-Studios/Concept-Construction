@@ -11,3 +11,11 @@
 /* TODO Update selection BG color */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+.menu li.item-117 {position: relative; width: 317px;}
+.menu li img + span {text-indent: -9000px;}
+.menu li img {
+	position: absolute;
+	left: 6px;
+	top: -90px;
+}
+
