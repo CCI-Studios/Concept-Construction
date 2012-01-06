@@ -98,6 +98,6 @@
 
 #sidebar .moduletable {
 	position: relative; 
-	margin-bottom: 60px;
-	
+	padding: 20px 0 60px 0;
 }
+#sidebar .moduletable:first-child {padding-top: 0;}
