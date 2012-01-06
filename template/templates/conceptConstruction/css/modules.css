@@ -4,13 +4,13 @@
 /* @group hmenu */
 
 .module_hmenu ul,
-.moduletable_hmenu > ul {
+.moduletable_hmenu > ul	 {
 	margin: 0;
 	padding: 0;
 }
 
 .module_hmenu ul li,
-.moduletable_hmenu > ul > li {
+.moduletable_hmenu > ul > li{
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
@@ -103,3 +103,17 @@
 	padding: 20px 0 60px 0;
 }
 #sidebar .moduletable:first-child {padding-top: 0;}
+
+/*bottom gallery*/
+
+.moduletable.galleryTitle {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	width: 223px;
+	color: #838385;
+	margin-right: 12px;
+	text-align: center;
+	padding-bottom: 35px;
+}
