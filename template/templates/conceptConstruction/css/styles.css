@@ -12,7 +12,8 @@
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 
-.module a.customLink{
+.module a.customLink,
+.moduletable a.customLink {
 	font-size: 14px;
 	background: url('../images/buttonLink.png') top left no-repeat; 
 	padding-left: 20px;
@@ -22,14 +23,16 @@
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 }
 
-.module .customLink span {
+.module .customLink span,
+.moduletable .customLink span {
 	background: url('../images/buttonLink.png') bottom right no-repeat; 
 	padding-right: 20px; 
 	line-height: 35px; 
 	display: inline-block;
 }
 
-.module:hover a.customLink{
+.module:hover a.customLink,
+.moduletable:hover a.customLink {
 	font-size: 14px;
 	font-style: normal;
 	background: url('../images/buttonLink.png') top left no-repeat; 
@@ -39,7 +42,8 @@
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 }
 
-.module:hover .customLink span {
+.module:hover .customLink span,
+.moduletable:hover .customLink span {
 	background: url('../images/buttonLink.png') bottom right no-repeat;
 	padding-right: 20px; 
 	line-height: 35px; 
