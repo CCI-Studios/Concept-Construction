@@ -61,21 +61,29 @@
 
 #bodyTop .module {
 	float: left;
+	position: relative;
 	width: 300px;
-	padding: 30px 0 0 20px;
+	padding: 10px 0 30px 20px;
 }
+
 #bodyTop .module:first-child {padding-left: 0;}
 
-#bodyTop .module.blueBg {
-	width: 310px; 
+#bodyTop .module:hover {
+	position: relative;
+	width: 300px; 
 	color: #ffffff;
 	font-weight: lighter;
 	padding-top: 0;
 }
-#bodyTop .module.blueBg > div {background: url('../images/bodyTopModuleTop.jpg') top center no-repeat; padding-top: 10px;}
-#bodyTop .module.blueBg > div > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px;}
-#bodyTop .module.blueBg > div > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 20px 20px 30px;}
-#bodyTop .module.blueBg h3 {color: #ffffff;}
+
+#bodyTop .module > div > div > div {padding: 20px 20px 30px;}
+#bodyTop .module:hover {padding-bottom: 15px;}
+#bodyTop .module:hover > div {background: url('../images/bodyTopModuleTop.jpg') top center no-repeat; padding-top: 10px;}
+#bodyTop .module:hover > div > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px;}
+#bodyTop .module:hover > div > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 20px 20px 30px;}
+#bodyTop .module:hover h3 {background: url('../images/bodyTopLogoImprint.png') left top no-repeat; color: #ffffff;}
+#bodyTop .module:hover p {font-style: italic;}
+
 /*sidebar*/
 
 #sidebar .moduletable {margin-bottom: 30px;}
