@@ -39,6 +39,8 @@
 	margin: 30px 0;
 }
 
+.module_hmenu.primary a:hover {text-decoration: none;}
+
 .moduletable_hmenu.secondary {
 	float: right;
 	margin-top: 20px;
