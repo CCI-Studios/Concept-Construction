@@ -24,3 +24,7 @@ ul.sigProClassic li.sigProThumb a.sigProLink img.sigProImg {
 	-pie-box-shadow: inset 0px 0px 4px #000000;
 	behaviour: url('../resources/PIE.htc');
 }
+
+ul.sigProClassic {
+	clear: both;
+}
