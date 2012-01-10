@@ -37,7 +37,7 @@
 }
 .home #sidebar,
 .testimonials #sidebar {margin: 0;}
-
+.gallery #sidebar {margin-bottom: 50px;}
 
 #bottom {
 	float: left;
