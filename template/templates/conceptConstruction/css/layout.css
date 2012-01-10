@@ -37,6 +37,7 @@
 }
 .home #sidebar,
 .testimonials #sidebar {margin: 0;}
+.ie7 .testimonials #sidebar {display: none;}
 .gallery #sidebar {margin-bottom: 50px;}
 
 #bottom {
