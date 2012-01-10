@@ -9,6 +9,9 @@ ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+	-pie-border-radius: 4px;
+	behaviour: url(templates/conceptConstruction/resources/PIE.htc);
+	*zoom: 1;
 }
 
 ul.sigProClassic li.sigProThumb {
@@ -22,7 +25,8 @@ ul.sigProClassic li.sigProThumb a.sigProLink img.sigProImg {
 	-moz-box-shadow: inset 0px 0px 4px #000000; /* FF3.5 - 3.6 */
 	box-shadow: inset 0px 0px 4px #000000; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
 	-pie-box-shadow: inset 0px 0px 4px #000000;
-	behaviour: url('../resources/PIE.htc');
+	behaviour: url(templates/conceptConstruction/resources/PIE.htc);
+	*zoom: 1;
 }
 
 ul.sigProClassic {
