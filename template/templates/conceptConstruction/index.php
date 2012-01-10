@@ -7,12 +7,15 @@
 <?php
 // get current menu name
 $menu = JSite::getMenu();
-if ($menu && $menu->getActive())
-    $menu = $menu->getActive()->alias;
+if ($menu && $menu->getActive()) {
+		$menu = $menu->getActive();
 		$page_sfx = $menu->params->get('pageclass_sfx');
-else
+    $menu = $menu->alias;
+} else {
 	$menu = "";
 	$page_sfx = "";
+}
+
 
 if ($_SERVER['SERVER_PORT'] === 8888 ||
 		$_SERVER['SERVER_ADDR'] === '127.0.0.1' ||
