@@ -12,6 +12,7 @@ if ($menu && $menu->getActive())
 		$page_sfx = $menu->params->get('pageclass_sfx');
 else
 	$menu = "";
+	$page_sfx = "";
 
 if ($_SERVER['SERVER_PORT'] === 8888 ||
 		$_SERVER['SERVER_ADDR'] === '127.0.0.1' ||
