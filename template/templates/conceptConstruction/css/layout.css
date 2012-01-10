@@ -23,7 +23,7 @@
 	float: left;
 	width: 620px;
 	padding-right: 10px;
-	margin: 20px 0;
+	margin: 25px 0;
 }
 .home #content {margin: 0;}
 .testimonials #content {width: 100%;}
@@ -33,7 +33,7 @@
 	width: 270px;
 	padding: 0 10px 0 29px;
 	border-left: 1px solid #e5e5e5;
-	margin: 20px 0;
+	margin: 25px 0;
 }
 .gallery #sidebar {margin-bottom: 50px;}
 
