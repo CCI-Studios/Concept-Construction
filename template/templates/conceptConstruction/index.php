@@ -9,6 +9,7 @@
 $menu = JSite::getMenu();
 if ($menu && $menu->getActive())
     $menu = $menu->getActive()->alias;
+		$page_sfx = $menu->params->get('pageclass_sfx');
 else
 	$menu = "";
 
