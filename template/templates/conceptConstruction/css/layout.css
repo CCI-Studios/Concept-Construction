@@ -25,7 +25,6 @@
 	padding-right: 10px;
 	margin: 20px 0;
 }
-.home #content {margin: 0;}
 .testimonials #content {width: 100%;}
 
 #sidebar {
@@ -35,9 +34,6 @@
 	border-left: 1px solid #e5e5e5;
 	margin: 20px 0;
 }
-.home #sidebar,
-.testimonials #sidebar {margin: 0;}
-.ie7 .testimonials #sidebar {display: none;}
 .gallery #sidebar {margin-bottom: 50px;}
 
 #bottom {
