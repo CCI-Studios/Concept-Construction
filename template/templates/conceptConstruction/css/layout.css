@@ -26,6 +26,7 @@
 	margin: 20px 0;
 }
 .home #content {margin: 0;}
+.testimonials #content {width: 100%;}
 
 #sidebar {
 	float: left;
@@ -34,7 +35,9 @@
 	border-left: 1px solid #e5e5e5;
 	margin: 25px 0;
 }
-.home #sidebar {margin: 0;}
+.home #sidebar,
+.testimonials #sidebar {margin: 0;}
+
 
 #bottom {
 	float: left;
