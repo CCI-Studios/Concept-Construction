@@ -5,6 +5,13 @@ body, select, input, textarea {
 	font-size: 12px;
 }
 
+@font-face {
+	font-family: 'bank gothic';
+	src: url('../resources/segoeuib.eot?') format('eot'), url('../resources/segoeuib.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { 
 	font-family: bank gothic; /*TODO ADD @font-face*/
