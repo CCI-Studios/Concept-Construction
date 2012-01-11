@@ -8,8 +8,10 @@
 
 #header {
 	background: url('../images/headerBG.jpg') top center no-repeat;
-	height: 401px;
+	overflow: hidden;
 }
+.open { height: 400px;}
+.close { height: 220px;}
 
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
 #header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}
