@@ -98,6 +98,7 @@
 #sidebar .moduletable:first-child {padding-top: 0;}
 
 /*bottom gallery*/
+.moduletable {position: relative; *zoom: 1;}
 
 .moduletable.galleryTitle {
 	float: left;

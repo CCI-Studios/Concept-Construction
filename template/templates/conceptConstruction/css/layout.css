@@ -39,6 +39,8 @@
 #bottom {
 	float: left;
 	padding: 0 0 35px 0;
+	position: relative;
+	*zoom: 1;
 }
 
 #footer {
