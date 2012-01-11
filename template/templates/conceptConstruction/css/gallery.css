@@ -12,14 +12,16 @@ ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
+	border: none;
+}
+
+ul.sigProClassic li.sigProThumb span.sigProLinkWrapper .mask {
 	position: absolute;
 	background: url('../images/imgFrame.png') top center no-repeat;
 	z-index: 2;
 	border: none;
-	padding: 6px;
-}
-
-ul.sigProClassic li.sigProThumb a.sigProLink img.sigProImg, ul.sigProClassic li.sigProThumb a.sigProLink:hover img.sigProImg {
-	position: absolute;
-	z-index: 1;
+	height: 129px;
+	width: 224px;
+	top: 0px;
+	margin: -6px 0 0 -6px;
 }
