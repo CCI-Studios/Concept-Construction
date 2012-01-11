@@ -25,7 +25,3 @@ ul.sigProClassic li.sigProThumb span.sigProLinkWrapper .mask {
 	top: 0px;
 	margin: -6px 0 0 -6px;
 }
-
-.ie7 ul.sigProClassic:hover {
-	margin-left: 6px;
-}
