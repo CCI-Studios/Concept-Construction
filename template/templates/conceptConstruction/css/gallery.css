@@ -4,11 +4,11 @@ ul.sigProClassic li.sigProThumb {
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
-	background: none;
+	background: url('../images/galleryImageShadow.png') bottom center no-repeat;
 	position: relative;
 	height: 118px;
 	width: 213px;
-	padding: 0;
+	padding: 0 0 12px 0;
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
