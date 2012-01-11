@@ -89,6 +89,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<?php endif; ?>
 		<div class="clear"></div>
 	</div></div></div>
+	<div class="clear"></div>
 	
 	<div id="footer"><div><div class="container">
 		<div id="copyright">
