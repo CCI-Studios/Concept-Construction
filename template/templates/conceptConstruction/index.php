@@ -81,6 +81,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			<div class="clear"></div>
 		</div>
 		<?php endif; ?>
+		<div class="clear"></div>
 		<?php if ($this->countModules('bottom')): ?>
 		<div id="bottom">
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
