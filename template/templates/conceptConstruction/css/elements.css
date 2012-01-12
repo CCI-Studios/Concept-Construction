@@ -1,4 +1,8 @@
 /* elements */
+body {
+	background: url('../images/footerBG.jpg') center repeat;
+}
+
 body, select, input, textarea {
 	color: #757575; /* off black */
 	font-family: Arial, Helvetica, sans-serif;

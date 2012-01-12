@@ -7,7 +7,7 @@
 #body .container {background: url('../images/bodyTopShadow.png') top center no-repeat;}
 
 #header {
-	background: url('../images/headerBG.jpg') top center no-repeat;
+	background: #ffffff url('../images/headerBG.jpg') top center no-repeat;
 	overflow: hidden;
 }
 .open { height: 400px;}
@@ -16,7 +16,7 @@
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
 #header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}
 
-#body {background: url('../images/bodyTopLines.png') top center repeat-x;}
+#body {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
 
 #bodyTop {padding-bottom: 30px;}
