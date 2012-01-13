@@ -100,6 +100,12 @@
 
 /*bottom gallery*/
 
+.moduletable.recentNews img {
+	text-align: center;
+	width: 222px;
+	margin: 0 6px;
+}
+
 .moduletable.galleryTitle {
 	float: left;
 	font-family: arial;
