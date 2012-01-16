@@ -100,16 +100,11 @@
 
 /*bottom gallery*/
 
-.moduletable.galleryImg img {
-	text-align: center;
-	width: 222px;
-	margin: 0 6px;
-}
 
-.galleryImg {
+.galleryImg img {
 	text-align: center;
 	width: 222px;
-	margin: 0 6px;
+	margin: 0 4px;
 }
 
 .moduletable.galleryTitle {
@@ -130,6 +125,6 @@
 	font-weight: bold;
 	width: 222px;
 	color: #838385;
-	margin: 0 6px 15px;
+	margin: 0 4px 15px;
 	text-align: center;
 }
