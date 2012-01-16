@@ -128,3 +128,7 @@
 	margin: 0 4px 15px;
 	text-align: center !important;
 }
+
+.center {
+	text-align: center;
+}
