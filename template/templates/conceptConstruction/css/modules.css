@@ -116,3 +116,14 @@
 	margin: 0 6px;
 	text-align: center;
 }
+
+.galleryTitle {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	width: 222px;
+	color: #838385;
+	margin: 0 6px;
+	text-align: center;
+}
