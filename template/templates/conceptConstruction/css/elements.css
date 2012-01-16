@@ -18,7 +18,7 @@ body, select, input, textarea {
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { 
-	font-family: bank gothic; /*TODO ADD @font-face*/
+	font-family: "purista-web", Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #002d62;
