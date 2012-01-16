@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "purista-web", Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	font-variant: small-caps;
 	color: #002d62;
 	padding: 0px 0 25px 45px;
 	margin: 0;
