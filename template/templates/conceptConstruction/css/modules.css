@@ -126,5 +126,5 @@
 	width: 222px;
 	color: #838385;
 	margin: 0 4px 15px;
-	text-align: center;
+	text-align: center !important;
 }
