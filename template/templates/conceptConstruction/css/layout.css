@@ -9,9 +9,10 @@
 #header {
 	background: #ffffff url('../images/headerBG.jpg') top center no-repeat;
 	overflow: hidden;
+	position: relative;
+	height: 400px;
 }
-.open { height: 400px;}
-.close { height: 220px;}
+#header.close { height: 220px;}
 
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
 #header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}
