@@ -100,13 +100,6 @@
 
 /*bottom gallery*/
 
-
-.galleryImg img {
-	text-align: center;
-	width: 222px;
-	margin: 0 4px;
-}
-
 .moduletable.galleryTitle {
 	float: left;
 	font-family: arial;
@@ -115,21 +108,5 @@
 	width: 225px;
 	color: #838385;
 	margin: 0 4px;
-	text-align: center;
-}
-
-.galleryTitle {
-	float: left;
-	font-family: arial;
-	font-size: 14px;
-	font-weight: bold;
-	width: 225px;
-	color: #838385;
-	margin: 0 4px 15px;
-	text-align: center !important;
-}
-
-.center {
-	position:relative;
 	text-align: center;
 }
