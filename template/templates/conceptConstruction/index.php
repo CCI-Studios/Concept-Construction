@@ -52,6 +52,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	
 	<script type="text/javascript" src="http://use.typekit.com/dss7lza.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 
 	<!-- load modernizer, all other at bottom -->
 	<?php if ($testing): ?>
@@ -63,8 +64,9 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="header" class="open"><div><div>
+	<div id="header" class=""><div><div>
 		<jdoc:include type="modules" name="header" style="rounded" />
+		<div class="buttonContainer"><div><div class="button"></div></div></div>
 	</div></div></div>
 	
 	<div id="body"><div><div class="container">
@@ -120,6 +122,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<script src="/templates/<?= $this->template ?>/js/columns.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/dropmenu.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/html5.js"></script>
+		<script src="/templates/<?= $this->template ?>/js/header.js"></script>
 	<?php else: ?>
 		<script>
 			var _gaq=[["_setAccount","<?php echo $analytics?>"],["_trackPageview"]];
