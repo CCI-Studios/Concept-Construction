@@ -1,1 +1,34 @@
 /* editor content */
+
+.galleryCenter {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.galleryCenter p {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	width: 225px;
+	color: #838385;
+	margin: 0 4px 15px;
+	text-align: center !important;
+}
+
+.galleryCenter img {
+	text-align: center;
+	width: 222px;
+	margin: 0 4px;
+}
+
+<div style="display: inline-block;">
+<span class="galleryImg"><img alt="2009" src="images/galleryThumbnails/2009.png" height="136" width="224" /></span><br />
+<p class="galleryTitle">New Homes</p>
+</div>
+
+<div style="display:inline-block;">
+ <span class="galleryImg"><img alt="kitchen" src="images/galleryThumbnails/kitchen.png" height="136" width="224" /></span><br />
+ <p class="galleryTitle">Renovations</p>
+</div>
