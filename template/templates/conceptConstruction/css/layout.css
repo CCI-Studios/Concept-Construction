@@ -16,6 +16,22 @@
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
 #header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}
 
+#header .button {
+	background: url('../images/close.png') bottom right no-repeat;
+	height: 24px;
+	width: 24px;
+	float: right;
+	cursor: pointer;
+	
+	-moz-transition: -moz-transform 0.2s linear;
+	-moz-transform: rotate(0);
+}
+
+#header.close .button {
+	background: url('../images/open.png') bottom right no-repeat;
+	-moz-transform: rotate(-180deg);
+}
+
 #body {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
 
