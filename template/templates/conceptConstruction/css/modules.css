@@ -76,7 +76,7 @@
 
 .buttonContainer {
 	position: absolute;
-	bottom: 0px;
+	bottom: 10px;
 	width: 100%;
 	z-index:2;
 }
@@ -85,7 +85,6 @@
 	position: relative;
 	margin: 0 auto;
 	width: 900px;
-	bottom: 10px;
 }
 
 /*bodyTop*/
