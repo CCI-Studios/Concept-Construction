@@ -98,7 +98,7 @@
 	margin-left: -10px;
 }
 #sidebar .module > div {padding-bottom: 15px;}
-#sidebar .module > div > div {padding-top: 15px;}
+#sidebar .module > div > div {padding-top: 20px;}
 #sidebar .module > div > div > div {padding: 0px 20px 45px;}
 
 #sidebar .module h3 {font-style: normal;}
@@ -109,7 +109,7 @@
 }
 
 #sidebar .module:hover > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px; *zoom: 1;}
-#sidebar .module:hover > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding-top: 15px; }
+#sidebar .module:hover > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding-top: 20px; }
 #sidebar .module:hover > div > div > div {background: url('../images/bodyTopLogoImprint.png') 20px top no-repeat;}
 
 #sidebar .module:hover h3 {background: url('../images/dividerLine.jpg') center 38px no-repeat; color: #ffffff;}
