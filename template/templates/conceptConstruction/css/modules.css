@@ -59,6 +59,19 @@
 .moduletable_hmenu.secondary a:hover {color: #ffffff; text-decoration: none; text-shadow: none;}
 
 /* /vmenu */
+.buttonContainer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index:2;
+}
+
+.buttonContainer > div {
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+	bottom: 10px;
+}
 
 /*bodyTop*/
 

@@ -93,16 +93,3 @@
 .wide1 {width: 100%;}
 .wide2 {width: 620px}
 
-.buttonContainer {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-}
-
-.buttonContainer > div {
-	position: relative;
-	margin: 0 auto;
-	width: 900px;
-	bottom: 10px;
-}
-
