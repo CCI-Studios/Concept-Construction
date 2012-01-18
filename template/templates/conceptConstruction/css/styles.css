@@ -15,6 +15,7 @@
 .module a.customLink,
 .moduletable a.customLink {
 	font-size: 14px;
+	font-style: normal;
 	background: url('../images/buttonLink.png') top left no-repeat; 
 	padding-left: 20px;
 	margin-top: 15px;
