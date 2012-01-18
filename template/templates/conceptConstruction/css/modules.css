@@ -115,6 +115,34 @@
 #sidebar .module:hover h3 {background: url('../images/dividerLine.jpg') center 38px no-repeat; color: #ffffff;}
 #sidebar .module:hover p {font-style: italic;}
 
+/* CUSTOM LINK FOR bodyTop and sidebar modules*/
+
+.module a.customLink,
+.moduletable a.customLink {
+	font-size: 14px;
+	font-style: normal;
+	background: url('../images/buttonLink.png') top left no-repeat; 
+	padding-left: 20px;
+	margin-top: 15px;
+	position: absolute;
+	left: 110px;
+	bottom: 10px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.module .customLink span,
+.moduletable .customLink span {
+	background: url('../images/buttonLink.png') bottom right no-repeat; 
+	padding-right: 20px; 
+	line-height: 35px; 
+	display: inline-block;
+}
+
+a.customLink.first {left: 117px;}
+a.customLink.second {left: 120px;}
+a.customLink.third {left: 110px;}
+#sidebar .module a.customLink {left: 106px; bottom: 53px;}
+
 /*bottom gallery*/
 
 .moduletable.galleryTitle {
