@@ -12,9 +12,9 @@
 	position: relative;
 	height: 390px;
 }
-#header.close { height: 215px;}
-
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
+
+#header.close { height: 215px;}
 
 #header .button {
 	background: url('../images/close.png') bottom right no-repeat;
@@ -43,7 +43,8 @@
 	-o-transform: rotate(-180deg);
 	-ms-transform: rotate(-180deg);
 	transform: rotate(-180deg);
-	}
+}
+
 #body {background: url('../images/headerBottomBar.png') top center repeat-x; padding-top: 5px;}
 #body > div {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
@@ -55,7 +56,6 @@
 	padding-right: 10px;
 	margin: 30px 0;
 }
-.testimonials #content {width: 100%;}
 
 #sidebar {
 	float: left;
@@ -64,7 +64,6 @@
 	border-left: 1px solid #e5e5e5;
 	margin: 0;
 }
-.gallery #sidebar {margin-bottom: 50px;}
 
 #bottom {
 	float: left;

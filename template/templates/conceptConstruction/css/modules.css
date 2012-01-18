@@ -174,7 +174,7 @@ a.customLink.third {left: 110px;}
 
 .moduletable.galleryTitle {
 	float: left;
-	font-family: arial;
+	font-family: arial, helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	width: 225px;
