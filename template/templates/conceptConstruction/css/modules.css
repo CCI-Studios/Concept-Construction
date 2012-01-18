@@ -25,6 +25,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 13px;
+	z-index: 2;
 }
 
 .module_hmenu.primary > div {background: url('../images/menuBar_repeat.png') top center repeat-x;}
