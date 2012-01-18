@@ -1,5 +1,7 @@
 /* editor content */
 
+/*for pages without a sidebar*/
+
 .galleryCenter {
 	display: inline-block;
 	*display: inline;
@@ -18,6 +20,32 @@
 }
 
 .galleryCenter img {
+	text-align: center;
+	width: 222px;
+	margin: 0 4px;
+}
+
+/*for pages with a sidebar*/
+
+.galleryLeft {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: 0 35px;
+}
+
+.galleryLeft p {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	width: 224px;
+	color: #838385;
+	margin: 0 4px 15px;
+	text-align: center !important;
+}
+
+.galleryLeft img {
 	text-align: center;
 	width: 222px;
 	margin: 0 4px;
