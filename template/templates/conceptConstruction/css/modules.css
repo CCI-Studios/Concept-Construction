@@ -75,14 +75,12 @@
 
 #bodyTop .module:hover {
 	background: url('../images/bodyTopModuleTop.jpg') 20px top no-repeat; 
-	padding-top: 10px;
 	position: relative;
-	width: 300px; 
 	color: #ffffff;
 	font-weight: lighter;
-	padding-top: 0;
-	padding-bottom: 15px;
+	padding: 0 0 15px 20px;
 }
+
 #bodyTop .module:hover > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px; *zoom: 1;}
 #bodyTop .module:hover > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 0; margin-top: 10px;}
 #bodyTop .module:hover > div > div > div {background: url('../images/bodyTopLogoImprint.png') 20px 20px no-repeat;}
