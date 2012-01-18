@@ -7,7 +7,7 @@
 #body .container {background: url('../images/bodyTopShadow.png') top center no-repeat;}
 
 #header {
-	background: #ffffff url('../images/headerBG.jpg') top center no-repeat;
+	background: #fff;
 	overflow: hidden;
 	position: relative;
 	height: 390px;
