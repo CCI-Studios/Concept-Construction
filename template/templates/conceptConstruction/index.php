@@ -69,7 +69,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<div class="buttonContainer"><div><div class="button"></div></div></div>
 	</div></div></div>
 	
-	<div id="body"><div><div class="container">
+	<div id="body"><div><div><div class="container">
 		<?php if ($this->countModules('bodyTop')): ?>
 		<div id="bodyTop">
 			<jdoc:include type="modules" name="bodyTop" style="rounded" />
@@ -101,7 +101,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		</div>
 		<?php endif; ?>
 		<div class="clear"></div>
-	</div></div></div>
+	</div></div></div></div>
 	
 	<div id="footer"><div><div class="container">
 		<div id="copyright">
