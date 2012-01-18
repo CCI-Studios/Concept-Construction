@@ -15,7 +15,6 @@
 #header.close { height: 215px;}
 
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
-#header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}
 
 #header .button {
 	background: url('../images/close.png') bottom right no-repeat;
@@ -45,9 +44,9 @@
 	-ms-transform: rotate(-180deg);
 	transform: rotate(-180deg);
 	}
-
-#body {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
-#body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
+#body {background: url('../images/headerBottomBar.png') top center repeat-x; padding-top: 5px;}
+#body > div {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
+#body > div > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
 
 #bodyTop {padding-bottom: 30px;}
 
