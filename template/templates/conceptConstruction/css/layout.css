@@ -12,7 +12,7 @@
 	position: relative;
 	height: 400px;
 }
-#header.close { height: 220px;}
+#header.close { height: 215px;}
 
 #header > div {background: url('../images/headerTopBar.png') top center repeat-x; height: 100%;}
 #header > div > div {background: url('../images/headerBottomBar.png') bottom center repeat-x; height: 100%;}

@@ -11,7 +11,7 @@ window.addEvent('domready', function () {
 			header.tween('height', '400');
 			Cookie.write('windowOpen', 1);
 		} else {
-			header.tween('height', '200');
+			header.tween('height', '215');
 			Cookie.write('windowOpen', 0);
 		}
 
