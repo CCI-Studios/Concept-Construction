@@ -59,7 +59,21 @@
 .moduletable_hmenu.secondary a {color: #404143;}
 .moduletable_hmenu.secondary a:hover {color: #ffffff; text-decoration: none; text-shadow: none;}
 
-/* /vmenu */
+/* header */
+
+.module.headerImg {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.module.headerImg > div {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .buttonContainer {
 	position: absolute;
 	bottom: 0px;
