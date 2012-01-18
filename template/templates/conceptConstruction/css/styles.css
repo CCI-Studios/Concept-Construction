@@ -53,7 +53,7 @@
 a.customLink.first {left: 117px;}
 a.customLink.second {left: 120px;}
 a.customLink.third {left: 110px;}
-#sidebar a.customLink {left: 70px;}
+#sidebar .module a.customLink {left: 106px; bottom: 53px;}
 
 .menu li.item-106 {position: relative; width: 317px;}
 .menu li img + span {text-indent: -9000px;}
