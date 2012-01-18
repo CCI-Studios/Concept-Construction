@@ -97,15 +97,15 @@
 	font-style: italic;
 	margin-left: -10px;
 }
+#sidebar .module > div {padding-bottom: 15px;}
 #sidebar .module > div > div {padding-top: 15px;}
-#sidebar .module > div > div > div {padding: 0px 20px 30px;}
+#sidebar .module > div > div > div {padding: 0px 20px 45px;}
 
 #sidebar .module h3 {font-style: normal;}
 
 #sidebar .module:hover {
 	background: url('../images/bodyTopModuleTop.jpg') 19px top no-repeat;
 	color: #ffffff;
-	padding: 10px 0 60px 19px;
 }
 
 #sidebar .module:hover > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px; *zoom: 1;}
