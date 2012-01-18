@@ -24,14 +24,27 @@
 	float: right;
 	cursor: pointer;
 	
+	-webkit-transition: -webkit-transform .5s linear;
 	-moz-transition: -moz-transform 0.2s linear;
+	-o-transition: -o-transform 0.2s linear;
+	-ms-transition: -ms-transform 0.2s linear;
+	transition: transform 0.2s linear;
+	
+	-webkit-transform: rotate(0);
 	-moz-transform: rotate(0);
+	-o-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
 }
 
 #header.close .button {
 	background: url('../images/open.png') bottom right no-repeat;
+	-webkit-transform: rotate(-180deg);
 	-moz-transform: rotate(-180deg);
-}
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	}
 
 #body {background: #ffffff url('../images/bodyTopLines.png') top center repeat-x;}
 #body > div {background: url('../images/bodyBottomLines.png') bottom center repeat-x;}
