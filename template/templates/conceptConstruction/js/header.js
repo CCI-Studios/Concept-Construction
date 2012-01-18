@@ -8,7 +8,7 @@ window.addEvent('domready', function () {
 		
 	buttons.addEvent('click', function() {
 		if (header.hasClass('close')) {
-			header.tween('height', '400');
+			header.tween('height', '390');
 			Cookie.write('windowOpen', 1);
 		} else {
 			header.tween('height', '215');
