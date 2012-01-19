@@ -6,6 +6,7 @@
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
+	margin-bottom: 15px;
 }
 
 .galleryCenter p {
@@ -15,7 +16,7 @@
 	font-weight: bold;
 	width: 224px;
 	color: #838385;
-	margin: 0 4px 15px;
+	margin: 0 4px;
 	text-align: center !important;
 }
 
