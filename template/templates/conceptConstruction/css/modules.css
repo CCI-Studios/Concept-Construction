@@ -140,7 +140,7 @@
 #sidebar .module:hover > div > div > div {background: url('../images/bodyTopLogoImprint.png') 20px top no-repeat;}
 
 #sidebar .module:hover h3 {background: url('../images/dividerLine.jpg') center 38px no-repeat; color: #ffffff;}
-#sidebar .module:hover p {font-style: italic;}
+#sidebar .module:hover p {*zoom: 1;} /*fixes issue in ie7*/
 
 /* CUSTOM LINK FOR bodyTop and sidebar modules*/
 
