@@ -23,12 +23,6 @@
 	float: right;
 	cursor: pointer;
 	
-	-webkit-transition: -webkit-transform .5s linear;
-	-moz-transition: -moz-transform 0.2s linear;
-	-o-transition: -o-transform 0.2s linear;
-	-ms-transition: -ms-transform 0.2s linear;
-	transition: transform 0.2s linear;
-	
 	-webkit-transform: rotate(0);
 	-moz-transform: rotate(0);
 	-o-transform: rotate(0);
