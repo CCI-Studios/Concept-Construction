@@ -47,15 +47,16 @@
 
 #content {
 	float: left;
+	border-right: 1px solid #e5e5e5;
 	padding-right: 10px;
 	margin: 30px 0;
+	
 }
 
 #sidebar {
 	float: left;
 	width: 270px;
 	padding: 0 10px 0 9px;
-	border-left: 1px solid #e5e5e5;
 	margin: 0;
 }
 
