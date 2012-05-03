@@ -82,9 +82,9 @@ $analytics = "UA-28572584-1";
 					} else {
 						echo 'wide2';
 					}
-			?>">
+			?>"><div><div>
 			<jdoc:include type="component" />
-		</div>
+		</div></div></div>
 		<?php if ($this->countModules('sidebar')): ?>
 		<div id="sidebar">
 			<jdoc:include type="modules" name="sidebar" style="rounded" />
