@@ -102,7 +102,8 @@
 /* CUSTOM LINK FOR bodyTop and sidebar modules*/
 
 .module a.customLink,
-.moduletable a.customLink {
+.moduletable a.customLink,
+.item-page a.customLink {
 	font-size: 14px;
 	font-style: normal;
 	background: url('../images/buttonLink.png') top left no-repeat; 
@@ -115,7 +116,8 @@
 }
 
 .module .customLink span,
-.moduletable .customLink span {
+.moduletable .customLink span,
+.item-page a.customLink span {
 	background: url('../images/buttonLink.png') bottom right no-repeat; 
 	padding-right: 20px; 
 	line-height: 35px; 
