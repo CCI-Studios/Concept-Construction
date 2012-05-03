@@ -99,21 +99,6 @@
 
 #bodyTop .module:first-child {margin-left: -20px;}
 
-#bodyTop .module:hover {
-	background: url('../images/bodyTopModuleTop.jpg') 20px top no-repeat; 
-	position: relative;
-	color: #ffffff;
-	font-weight: lighter;
-	padding: 0 0 15px 20px;
-}
-
-#bodyTop .module:hover > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px; *zoom: 1;}
-#bodyTop .module:hover > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding: 0; margin-top: 10px;}
-#bodyTop .module:hover > div > div > div {background: url('../images/bodyTopLogoImprint.png') 20px 20px no-repeat;}
-
-#bodyTop .module:hover h3 {background: url('../images/dividerLine.jpg') center 38px no-repeat;; color: #ffffff;}
-#bodyTop .module:hover p {font-style: italic;}
-
 /*sidebar*/
 
 #sidebar .module {
@@ -124,23 +109,7 @@
 	margin-left: -10px;
 	margin: -30px 0 0 -10px;
 }
-#sidebar .module > div {padding-bottom: 15px;}
-#sidebar .module > div > div {padding-top: 20px;}
-#sidebar .module > div > div > div {padding: 0px 20px 45px;}
-
-#sidebar .module h3 {font-style: normal;}
-
-#sidebar .module:hover {
-	background: url('../images/bodyTopModuleTop.jpg') 19px top no-repeat;
-	color: #ffffff;
 }
-
-#sidebar .module:hover > div {background: url('../images/bodyTopModuleBottom.png') bottom center no-repeat; padding-bottom: 15px; *zoom: 1;}
-#sidebar .module:hover > div > div {background: url('../images/bodyTopModuleMiddle.jpg') center repeat-y; padding-top: 20px; }
-#sidebar .module:hover > div > div > div {background: url('../images/bodyTopLogoImprint.png') 20px top no-repeat;}
-
-#sidebar .module:hover h3 {background: url('../images/dividerLine.jpg') center 38px no-repeat; color: #ffffff;}
-#sidebar .module:hover p {*zoom: 1;} /*fixes issue in ie7*/
 
 /* CUSTOM LINK FOR bodyTop and sidebar modules*/
 
