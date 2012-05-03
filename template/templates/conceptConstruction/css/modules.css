@@ -103,12 +103,12 @@
 
 #sidebar .module {
 	position: relative;
-	width: 300px;
-	padding: 10px 0 60px 19px;
+	width: 290px;
+	padding: 10px 0 60px;
 	font-style: italic;
 	margin-left: -10px;
-	margin: -30px 0 0 -10px;
-}
+	margin: 0;
+	color: #002d62
 }
 
 /* CUSTOM LINK FOR bodyTop and sidebar modules*/
