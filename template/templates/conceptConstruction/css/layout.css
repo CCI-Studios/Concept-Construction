@@ -40,10 +40,8 @@
 }
 
 #body {background: url('../images/headerBottomBar.png') top center repeat-x; padding-top: 5px;}
-#body > div {background: #f2f2f2 url('../images/bodyTopLines.png') top center repeat-x;}
-#body > div > div {background: #f2f2f2 url('../images/bodyBottomLines.jpg') bottom center repeat-x;}
-
-#bodyTop {padding-bottom: 30px;}
+#body > div {background: #f2f2f2 url('../images/bodyTopLines.jpg') top center repeat-x;}
+#body > div > div {background: url('../images/bodyBottomLines.jpg') bottom center repeat-x;}
 
 #content {
 	float: left;
