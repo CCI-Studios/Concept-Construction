@@ -45,9 +45,20 @@
 
 #content {
 	float: left;
-	padding: 20px 28px;
-	margin: 30px 20px 0 0;
-	border: 1px solid #e3e3e3;
+	margin: 30px 20px 30px 0;
+	background: url('../images/bg_contentTop.jpg') top center no-repeat;
+	padding-top: 8px;
+	position: relative;
+}
+
+#content > div {
+	background: url('../images/bg_contentBottom.jpg') bottom center no-repeat;
+	padding-bottom: 8px;
+}
+
+#content > div > div {
+	background: url('../images/bg_contentMiddle.jpg') top center repeat-y;
+	padding: 12px 28px 20px;
 }
 
 #sidebar {
