@@ -87,18 +87,6 @@
 	width: 900px;
 }
 
-/*bodyTop*/
-
-#bodyTop .module {
-	float: left;
-	position: relative;
-	padding: 10px 0 30px 20px;
-}
-
-#bodyTop .module > div > div > div {padding: 20px 20px 30px;}
-
-#bodyTop .module:first-child {margin-left: -20px;}
-
 /*sidebar*/
 
 #sidebar .module {
