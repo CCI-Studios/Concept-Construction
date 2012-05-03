@@ -76,7 +76,6 @@ $analytics = "UA-28572584-1";
 			<div class="clear"></div>
 		</div>
 		<?php endif; ?>
-		<?php if ($page_sfx !== '_hidden'): ?>
 		<div id="content" class="<?php 
 					if (!$this->countModules('sidebar')) {
 						echo 'wide1';
@@ -86,7 +85,6 @@ $analytics = "UA-28572584-1";
 			?>">
 			<jdoc:include type="component" />
 		</div>
-		<?php endif; ?>
 		<?php if ($this->countModules('sidebar')): ?>
 		<div id="sidebar">
 			<jdoc:include type="modules" name="sidebar" style="rounded" />
