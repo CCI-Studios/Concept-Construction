@@ -70,12 +70,6 @@ $analytics = "UA-28572584-1";
 	</div></div></div>
 	
 	<div id="body"><div><div><div class="container">
-		<?php if ($this->countModules('bodyTop')): ?>
-		<div id="bodyTop">
-			<jdoc:include type="modules" name="bodyTop" style="rounded" />
-			<div class="clear"></div>
-		</div>
-		<?php endif; ?>
 		<div id="content" class="<?php 
 					if (!$this->countModules('sidebar')) {
 						echo 'wide1';
