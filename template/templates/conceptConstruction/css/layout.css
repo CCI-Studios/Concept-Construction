@@ -50,15 +50,29 @@
 	padding-top: 8px;
 	position: relative;
 }
+#content.wide1 {
+	background: url('../images/bg_contentTopWide.png') top center no-repeat;
+}
 
 #content > div {
 	background: url('../images/bg_contentBottom.jpg') bottom center no-repeat;
 	padding-bottom: 8px;
 }
+#content.wide1 > div {
+	background: url('../images/bg_contentBottomWide.png') bottom center no-repeat;
+}
 
 #content > div > div {
 	background: url('../images/bg_contentMiddle.jpg') top center repeat-y;
 	padding: 12px 28px 20px;
+	width: 543px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+#content.wide1 > div > div {
+	background: url('../images/bg_contentMiddleWide.png') top center repeat-y;
+	width: 884px;
 }
 
 #sidebar {
