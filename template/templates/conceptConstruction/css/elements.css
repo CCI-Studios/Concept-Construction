@@ -17,12 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 	text-transform: uppercase;
 	color: #002d62;
-	padding: 5px 0 25px 55px;
+	padding: 5px 0 25px 59px;
 	margin: 0;
 	background: url('../images/headerLogo.png') left top no-repeat;
 	font-size: 24px;
 	line-height: 23px;
-	border-bottom: 2px solid #002d62;
 }
 	
 p {margin: 0;}
