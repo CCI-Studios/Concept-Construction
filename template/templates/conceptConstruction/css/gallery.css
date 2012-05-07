@@ -1,6 +1,8 @@
 ul.sigProClassic li.sigProThumb {
 	position: relative;
 	padding: 6px;
+	margin: 0 0 15px 33px;
+	background-color: transparent !important;
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
