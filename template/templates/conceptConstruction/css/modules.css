@@ -113,6 +113,7 @@
 	left: 110px;
 	bottom: -15px;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	cursor: pointer;
 }
 .module a.customLink:hover,
 .moduletable a.customLink:hover,
