@@ -98,7 +98,7 @@ $analytics = "UA-28572584-1";
 	<div id="footer"><div><div class="container">
 		<div id="copyright">
 			&copy; Concept Construction LTD. <?php echo date('Y') ?>. All Rights Reserved.<br />
-			<a href="http://ccistudios.com">Site by CCI Studios</a>
+			<a target="_blank" href="http://ccistudios.com">Site by CCI Studios</a>
 		</div>
 		<jdoc:include type="modules" name="footer" style="xhtml" />
 		<div class="clear"></div>
