@@ -33,5 +33,5 @@ CCI.Columns = new Class({
 });
 
 window.addEvent('load', function () {
-	c = new CCI.Columns($('bodyTop'), '.module div.custom');
+	//c = new CCI.Columns($('content', 'sidebar'), '.item-page, .module');
 });
